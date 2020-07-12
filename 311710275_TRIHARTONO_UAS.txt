@@ -1,0 +1,99 @@
+=============================================================================================
+Soal Ujian Akhir Semester
+Matkul : Arsitektu dan organisasi Komputer
+Kelas : TI.17.D3 & TI.17.D4
+Universitas Pelita Bangsa
+2020
+=============================================================================================
+NAMA 		: TRI HARTONO
+KELAS 		: TI17D4
+NIM 		: 311710275
+MATKUL 		: Arsitektur dan Organisasi Komputer
+DOSEN 		: Muhammad Najamuddin Dwi Miharja, S.Kom, M.kom
+TUGAS 		: UAS
+=============================================================================================
+
+1. Dalam arsitektur komputer ada 4 komponen Utama CPU, Sebutkan dan jelaskan kegunanaanya?
+Jawab :
+Komponen utama CPU :
+a. ALU (Arithmatic Logical Unit)
+Salah satu bagian/komponen dalam di dalam sistem komputer yang  berfungsi melakukan 
+operasi/perhitungan aritmatika dan logika (penjumlahan, pengurangan dan beberapa logika lain).
+b. CU (Control Unit)
+Merupakan salah satu bagian dari CPU yang bertugas untuk memberikan arahan/kendali/ kontrol 
+terhadap operasi yang dilakukan oleh ALU (Arithmetic Logical Unit) di dalam CPU.
+Fungsi Control Unit :
+- Mengatur & mengendalikan alat-alat input dan output.
+- Mengambil instruksi-instruksi dari memori utama.
+- Mengambil data dari memori utama (jika diperlukan).
+- Mengirim instruksi ke ALU bila ada perhitungan aritmatika atau perbandingan logika serta 
+  mengawasi kerja dari ALU.
+- Menyimpan hasil proses ke memori utama.
+c. Register
+Merupakan memori yang terdapat di dalam CPU, register adalah Alat penyimpanan kecil dgn 
+kecepatan akses yang tinggi, yangg digunakan untuk menyimpan data dan instruksi yang sedang 
+diproses, sementara data dan instruksi lainnya menunggu giliran untuk diproses, masih disimpan 
+di dalam memori utama.
+Jenis Jenis Register :
+- Instruction Register (IR) digunakan untuk menyimpan instruksi yang sedang diproses.
+- Program Counter (PC) digunakan untuk menyimpan alamat lokasi dari memori utama yang berisi 
+  instruksi yang sedang diproses.  Selama pemrosesan instruksi, isi PC diubah menjadi alamat 
+  dari memori utama yang berisi instruksi berikutnya.
+- General purpose register, punya kegunaan umum yang berhubungan dengan data yang sedang 
+  diproses.  Contoh, yg digunakan untuk menampung data disebut operand register, untuk menampung 
+  hasil disebut accumulator.
+- Memory data register (MDR) digunakan untuk menampung data atau instruksi hasil pengiriman 
+  dari memori utama ke CPU atau menampung data yg akan direkam ke memori utama, hasil pengolahan 
+  oleh CPU.
+- Memory address register (MAR) digunakan untuk menampung alamat data atau instruksi pada 
+  memori utama yg akan diambil atau yg akan diletakkan.
+d. CPU Interconection
+Merupakan alur transefer data/perintah yang diberikan yang menghubungkan ALU, CU dan REGISTER.
+
+2. Control Unit adalah bagian dari komputer yang menggenerasi signal yang mengontrol operasi
+komputer, sebutkan jenis apa saja yang termasuk Control Unit?
+Jawab :
+a. Single-Cycle CU
+Proses di CUl ini hanya terjadi dalam satu clock cycle, artinya setiap instruksi ada pada satu 
+cycle, maka dari itu tidak memerlukan state.
+b. Multi-Cycle CU
+Berbeda dengan unit kontrol yang single-cycle, unit kontrol yang multi-cycle lebih memiliki 
+banyak fungsi.
+
+3. Set instruksi (instruction set) adalah sekumpulan lengkap instruksi yang dapat di mengerti oleh 
+sebuah CPU. Set instruksi sering juga disebut sebagai bahasa mesin . sebutkan macam-macam format
+Instruksi?
+Jawab :
+a. Data procecessing: Arithmetic dan Logic Instructions
+Data processing adalah jenis pemrosesan yang dapat mengubah data menjadi informasi atau pengetahuan.
+b. Data storage: Memory instructions
+Sering disebut sebagai memori komputer, merujuk kepada komponen komputer, perangkat komputer, dan 
+media perekaman yang mempertahankan data digital yang digunakan untuk beberapa interval waktu.
+c. Data Movement: I/O instructions
+Proses data movement ini adalah memindahkan (dapat diakatakan membackup juga) data – data dari 
+database yang berupa data, indeks, grand, schema, dan lain – lain ketempat baru.
+d. Control: Test and branch instructions
+Unit kendali (bahasa Inggris: Control Unit – CU) adalah salah satu bagian dari CPU yang bertugas 
+untuk memberikan arahan/kendali/ kontrol terhadap operasi yang dilakukan di bagian ALU (Arithmetic 
+Logical Unit) di dalam CPU tersebut.
+
+4. Direct Memory Access (DMA) adalah suatu metode transfer data dari memori komputer atau RAM ke
+suatu bagian dari komputer tanpa memprosesnya menggunakan CPU. Sebutkan kelebihan
+menggunakan DMA ?
+Jawab :
+a. Dapat dilihat pada operasi multitasking seperti UNIX.
+b. Transfer data dengan mode DMA akan menghemaat sumberdaya CPU sehingga CPU dapat melakukan pekerjaan 
+yang lain.
+c. Sedangkan pada DOS (yang merupakan operasi single-tasking) harus menunggu sampai proses selesai terlebih
+dahulu baru kemudian bisa menjalankan proses berikutnya.
+d. Dapat melakukan pekerjaan atau instruksi yang berbeda ketika melakukan operasi baca tulis dari perangkat 
+peripheral.
+
+5. Pipeline adalah mesin yang melaksanakan beberapa komputasi yang berbeda secara bersama-sama
+,namun pada saat itu setiap komputasi akan berada dalam tahapan eksekusi yang berbeda. Sebutkan
+dua kategori Pipeline ?
+Jawab :
+a. Pipeline Unit Arithmetic
+Berguna untuk operasi vektor
+b. Pipeline Unit Instruction
+Berguna untuk komputer yang mempunyai set instruksi yang sederhana
